@@ -116,17 +116,17 @@ let nextImageHeight = 100;
 let playing = false;
 
 let textboxes = [
-    new Text("HAPPY BIRTHDAY JADEEEEEEEEEEEEEEEEEEEEEEEEEEE", windowWidth/2, windowHeight/2, 150, 5),
-    new Text("woah woah woah there", windowWidth/2, windowHeight/2, 150, 5),
-    new Text("you look really pretty rn", windowWidth/2, windowHeight/10, 80, 2),
-    new Text("i hope the most beautiful girl", windowWidth/2, windowHeight/10, 80, 2),
-    new Text("will have the most amazing birthday", windowWidth/2, windowHeight/10, 80, 2),
-    new Text("although we don't have many photos together", windowWidth/2, windowHeight/2, 80, 5),
-    new Text("i love the ones we do have", windowWidth/2, windowHeight/10, 80, 2),
-    new Text("because they remind me of how happy i am with you", windowWidth/2, windowHeight/10, 80, 2),
-    new Text("you're the best person who's ever walked into my life", windowWidth/2, windowHeight/10, 80, 2),
-    new Text("i love you so much babe", windowWidth/2, windowHeight/10, 80, 2),
-    new Text("happy birthday my love <333", windowWidth/2, windowHeight/2, 150, 5),
+    new Text("HAPPY BIRTHDAY JADEEEEEEEEEEEEEEEEEEEEEEEEEEE", windowWidth/2, windowHeight/2, 100, 5),
+    new Text("woah woah woah there", windowWidth/2, windowHeight/2, 100, 5),
+    new Text("you look really pretty rn", windowWidth/2, windowHeight/10, 40, 2),
+    new Text("i hope the most beautiful girl", windowWidth/2, windowHeight/10, 40, 2),
+    new Text("will have the most amazing birthday", windowWidth/2, windowHeight/10, 40, 2),
+    new Text("although we don't have many photos together", windowWidth/2, windowHeight/2, 100, 5),
+    new Text("i love the ones we do have", windowWidth/2, windowHeight/10, 40, 2),
+    new Text("because they remind me of how happy i am with you", windowWidth/2, windowHeight/10, 40, 2),
+    new Text("you're the best person who's ever walked into my life", windowWidth/2, windowHeight/10, 40, 2),
+    new Text("i love you so much babe", windowWidth/2, windowHeight/10, 40, 2),
+    new Text("happy birthday my love <333", windowWidth/2, windowHeight/2, 100, 5),
 ];
 
 let slides = [-1,-1,0,1,2,-1,3,4,5,6,-1];
@@ -137,8 +137,8 @@ let imageCount = 7;
 let images = new Array(imageCount);
 let pixelations = new Array(imageCount);
 let camLoaded = false;
-let imageWidth = 800;
-let imageHeight = 600;
+let imageWidth = 600;
+let imageHeight = 450;
 let capture;
 
 function randnum(min, max){
@@ -205,9 +205,9 @@ function setup() {
     }
 
     for(let i = 0; i < 5; i++){
-        spinnyImages[i].resize(300, 0);
+        spinnyImages[i].resize(200, 0);
         if(i == 3 || i == 4){
-            spinnyImages[i].resize(100, 0);
+            spinnyImages[i].resize(50, 0);
         }
     }
 

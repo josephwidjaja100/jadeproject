@@ -117,7 +117,7 @@ let playing = false;
 
 let textboxes = [
     new Text("HAPPY BIRTHDAY JADEEEEEEEEEEEEEEEEEEEEEEEEEEE", windowWidth/2, windowHeight/2, 150, 5),
-    new Text("woah woah woah there", windowWidth/2, windowHeight/2, 150, 1),
+    new Text("woah woah woah there", windowWidth/2, windowHeight/2, 150, 5),
     new Text("you look really pretty rn", windowWidth/2, windowHeight/10, 80, 1),
     new Text("i hope the most beautiful girl", windowWidth/2, windowHeight/10, 80, 1),
     new Text("will have the most amazing birthday", windowWidth/2, windowHeight/10, 80, 1),

@@ -121,7 +121,7 @@ let textboxes = [
     new Text("you look really pretty rn", windowWidth/2, windowHeight/10, 40, 2),
     new Text("i hope the most beautiful girl", windowWidth/2, windowHeight/10, 40, 2),
     new Text("will have the most amazing birthday", windowWidth/2, windowHeight/10, 40, 2),
-    new Text("although we don't have many photos together", windowWidth/2, windowHeight/2, 100, 5),
+    new Text("although we don't have many photos together", windowWidth/2, windowHeight/2, 80, 5),
     new Text("i love the ones we do have", windowWidth/2, windowHeight/10, 40, 2),
     new Text("because they remind me of how happy i am with you", windowWidth/2, windowHeight/10, 40, 2),
     new Text("you're the best person who's ever walked into my life", windowWidth/2, windowHeight/10, 40, 2),
